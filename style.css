@@ -1,0 +1,35 @@
+/* <*>{
+  font-family: 'Poppins', sans-serif;
+} */
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  position: relative;
+  max-width: 555px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+  background-image: url('gunung.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+
